@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>To Do's App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="filter">
+        <input
+          type="text"
+          class="input-text search"
+          id="filter"
+          placeholder="Search Items..."
+        />
+      </div>
+      <header class="header">
+        <h2 class="header-heading">To Do's App</h2>
+      </header>
+      <div class="todo-list">
+        <div class="todo-input">
+          <input
+            type="text"
+            class="input-text"
+            id="input-text"
+            placeholder="Add ToDo..."
+          />
+          <button class="input-btn" id="input-btn">Add</button>
+        </div>
+        <div class="todo-items">
+          <ul class="items-list" id="items-list">
+            <li class="item" id="item">
+              <p class="item-p">dfg</p>
+              <button class="del-btn" id="del-btn">&times;</button>
+            </li>
+            <li class="item" id="item">
+              <p class="item-p">k;kzjsdf</p>
+              <button class="del-btn" id="del-btn">&times;</button>
+            </li>
+            <li class="item" id="item">
+              <p class="item-p">aoiuyhruoi</p>
+              <button class="del-btn" id="del-btn">&times;</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
